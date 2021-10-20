@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo-1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <center><h1>Capítulo 11</h1></center>
+        <h2>Aula 1: Imagens Dinamicas</h2>
+        <h2>Aula 2: Imagens que se adaptam sozinhas</h2>
+        <p>coloque a tag picture e dentro dela coloque a tag img como exemplo:</p>
+        <xmp>
+        
+        <picture>
+            <sourse midia="(max-width: 750px)" srcset="imagens/imagem.png" type="image/png">
+            <sourse midia="(max-width: 1050px)" srcset="imagens/imagem.png" type="image/png">
+            <img href="imagem.png" alt="imagem flexivel">
+        </picture>
+        </xmp>
+        <h2>Aula 3: Colocando áudio no seu site </h2>
+        <p>Para colocar a tag audio basta colocar a tag como exemplo</p>
+        
+        <xmp>
+        <audio src="audio" controls autoplay></audio>
+        </xmp>
+        
+        <p>para colocar varios tipos de audio coloque a tag:</p>
+        
+        <xmp>
+        <audio preload="metadata"autoplay controls loop(se quiser)>
+            <source src="arquivo" type="audio/mp3">
+            <source src="arquivo" type="audio/ogg">
+            <source src="arquivo" type="audio/wav">
+            <p>Infelimente seu Navegador não é compativel com o áudio</p>
+        </audio>
+        </xmp>
+        <h2>Aula 4: Formatos de vídeos (Instale o app HandBrake)</h2>
+        <h2>Aula 5: Videos em hospedagem próoria</h2>
+        <p>Para colocar uma video coloque a tag:</p>
+        
+        <xmp>
+        <video src="arquivo" width="500" controls></video>
+        </xmp>
+        <p>Coloque todos os tipos</p>
+        
+        <xmp>
+        <video width="500" poster="arquivo" controls>
+            <sorece src="arquivo" type="video/mp4">
+            <sorece src="arquivo" type="video/mp4">
+            <sorece src="arquivo" type="video/webm>""
+            <p>Seu arquivo não tem compatilidade com o video</p>
+        </video>
+        
+        </xmp>
+        
+        <h2>Aula 6: Incorporação de videos externos</h2>
+        <p>Para colocar videos do youtue segua os passo a passo</p>
+        
+        <ul>
+        <li>Vai no video, depos clique em compartilhar</li>
+        <li>Incorporar</li>
+        <li>pegue o códio e cole no editor de códigos</li>
+        </ul>
+        <p><a href="index.html" rel="prev">Voltar ao Capítulo anterior</a></p>
+        <p><a href="pagina9.html" rel="next" target="_self">Ir para o próxmo Capítulo</a></p>
+    </main>
+</body>
+</html>

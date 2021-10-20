@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body {
+    background-color: gray;
+    margin: auto;
+}
+
+
+
+header {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: white;
+    padding: 10px;
+}
+
+nav > a {
+    background-color: rgb(233, 233, 233);
+    border-radius: 2px;
+}
+
+main {
+        margin: auto;
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
+        text-align: justify;
+}
+
+img {
+    margin: auto;
+    margin-right: 60px;
+     padding-left: 80px;
+     min-width: auto;
+     max-width: auto;
+   
+}
+    
+    
+
+footer {
+    background-color: white;
+    text-align: center;
+}
+
+* {
+    min-width: 690px;
+    max-width: 1000px;
+}
+

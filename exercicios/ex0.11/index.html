@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>tente em abrir as imagens em dispositivos diferente</p>
+
+    <picture>
+        <source media="(max-width: 800px)" srcset="imagens/foto-p.png"type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia ad minima, fuga natus nostrum magni quam similique ducimus repellendus esse. Eveniet quia nam sequi tempore eum sunt, quaerat soluta totam!
+
+   <audio preload="metadata" autoplay controls loop>
+       <source src="midia/musica.mp3" type="audio/mpeg">
+       <source src="midia/musica.ogg" type="audio/ogg">
+       <source src="midia/musica.wav" type="audio/wav">
+       <p>Infelizmente o seu navegador não é compativel com o audio. Acesse <a href="midia/musica.mp3">aqui para ver o audio</a></p>
+   </audio>
+
+   <h1>Inserindo videos do youtube</h1>
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/2y6aVz0Acx0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   
+</body>
+</html>

@@ -1,0 +1,246 @@
+Módulo 1: Capítulo 1
+
+Combinados:
+
+Fazer os execícios
+Ler o pdf
+Praticar
+
+Esse curos é para mim?
+
+Sim esse curso é para você se:"Admiro fazer sites porém não sei por onde começar", "Ja tentei mas não consegui", "Sei um pouco mas quero aprendder mais", "Consigo fazer alterações num site pronto mas não sei fazer um", "Estou estudando na faculdade porém não estou aprendendo", "Aprender a criar site e colocar na Internet"
+
+Não esse curso não é para você se:"Eu ja sei tudo sobre HTML5 e CSS3", "Estou procurando por códigos prontos e templates para sites", "Estou com pressa e quero aprender logo", "Quero apenas uma lista de comandos", "Não onsigo esperar o lançamento das aulas semanais", "Prefiro consultar a documentação oficial"
+
+PDFS para aprender HTML e CSS (on-line): Curso em Vídeo, Referências MDN, W3C Standards, WHATWG Living Standard e W3Schools.
+
+Livros para aprender HTML e CSS: Mark Pilgrim (HTML5), Eric Mayer (CSS), Estelle Weyl (Flexbox in CSS), Eric Mayer (Grid Layout in Css), todas da O'Relly. Elizabeth Castro e Bruce Hysto, Jon Duckett, Nate Cooper e Kim Gee (Novatec) todos da Alta books
+
+
+Capítulo 2
+
+Dominio e Hospedagem:
+
+
+Dominio: Nome único, Pago anualmente, vário tld.
+
+hospedagem: Espaço para armazenar seu arquivos, espaço, memória, recursos
+
+www.github.com/gustavoguanabara= URL
+
+github.com=dominio
+
+.com=TLD
+
+www=sub-dominio
+
+gustavoguanabara=caminho
+
+Capítulo 3
+
+HTML= Hypertext Markup Language
+
+CSS= Cascading Style Sheets
+
+O que é?
+
+HTMl é o conteudo (textos, imagens, videos, tabelas) 
+CSS é o desing(cores, sombra, tamanho posicionamento)
+JS é a interação (menus, animação, popups, validações)
+
+Conteúdo HTML: <h1>Exemplo de título</h1>, <p>Exemplo de parágrafo</p>, <img src="foto.png" alt="Exemplo de foto">
+  
+Estilo CSS: h1{ font-family: Arial; font-size: 20pt; color: blue;
+
+Estrutura HTML:
+
+	<!DOCTYPE html>
+	<html lang="pt-br">
+	  <head>
+		<meta charset "UTF-8">
+		<meta name=""width=device-width,initial-scale=1.0>
+		<title>Document</title>
+	  <head>
+	  <body>
+		<h1>Olá, Mundo!</h1>
+	  <body>
+	</html>
+
+Capítulo 4
+
+Códigos: h1 até o h6 são títulos com hierarquia, p é para fazer os parágrafo
+
+Capítulo 5: 
+
+Aula 1:Parágrafos e Quebra linhas
+
+Códigos: br serve para quebra as linhas, hr serve para fazer uma linha debaixo das frases
+
+Aula 2: Simbolos e Emoji
+
+Para adicionar um cometário colo a tag <!---->, para adiconara um Emoji acesse emojipedi procura o emoji e pegue o código volte a vscode e escreve o código &#x12345;
+ 
+Capítulo 6 
+
+Aula 1: Você tem direito de pegar qual quer imagem?
+
+A reposta é não! pois existem os direitos autorais isso é: você só pode pegar se ter o direito da pessoa que fez
+site para pegar imagens sem direitos autorais: pexels 
+
+Aula 2: Quais são os formatos para imagens na Web?
+
+Para Web utilize JPEG e PNG
+
+JPEG foi feito para compactar uma imagem
+
+PNG foi feito para substituir o formato GIF (permite transparência)
+Utilize um software chamado GIMP ou Photoshop
+
+Aula 3: O tamanho das imagens importa para um site?
+
+Sim, dependendo das imagens o arquivo pode ficar muito pesado e o site ficar travado
+
+Aula 4: A tag para  inserir
+
+utiliza a tag img 
+
+Aula 5:Ícones de favoritos
+
+Basta ir na área de cabeça do código base e em cima do title, digite link:favicon
+
+Capítulo 7 não existe
+
+Capítulo 8
+
+Aula 1: Semântica é importante?
+
+Sim, semântca é muito importante pois ela da significado algo, um exemplo é o negrito, se colocar a tag <b> o texto fica em negrito porém não tem significado ja a tag <strog>
+
+Para adicionar sublinhado sematica utiliza-se a tag addres
+
+Aula 2: Negrito e Ítalico do jeito certo
+
+Negrito
+Itálico
+Sublinhado
+
+Aula 3: Formatação adicionais em HTML
+
+Marcado (mark)
+Excluido (del)
+Inserido (ins preencha uma lacuna) V
+Sobrescrito (sup)
+Subescrito (sub)
+
+Aula 4: Citações e Códigos
+
+Para ler coódigo utilize a tag (code)
+
+Para citar algo utilize a tag (q) tambem pode citar algo usando (blockquote) utilize a o cite colocando o link do autor para manter os direitos autorais
+
+Para colocar uma abreviação coloque a tag abbr
+
+Capítulo 9
+
+Aula 1: Listas Ol (ordenadas) e UL (não ordenadas)
+
+OL (ordenadas)
+
+UL (não ordenadas)
+
+e dentro destas tags coloque a tag <li>
+
+Capítulo 10: Links e Âncoras
+
+Aula 1: Links e Âncoras
+
+Para criar um link externo utilize a tag a como por exemplo:
+
+<p><a href="URL" target="_blank" rel"external">clique aqui</a></p>
+
+Aula 2: Links Internos
+
+Para criar um link interno utiliza-se a tag a como exemplo
+
+<p><a href="#.html" rel="next" target="self"></a></p>
+
+Aula 3: Links para Download
+
+Para abaixar um pdf basta adicionar a tag a e dowloand exemplo
+
+<a href="livro.pdf" dowloand="livro.zip" type="apllication/zip">(tem que ser em .zip)
+
+Capítulo 11
+
+Aula 1: Imagens Dinamicas
+
+Aula 2: Imagens que se adaptam sozinhas
+
+coloque a tag picture e dentro dela coloque a tag img como exemplo:
+
+<picture>
+	<sourse midia="(max-width: 750px)" srcset="imagens/imagem.png" type="image/png">
+	<sourse midia="(max-width: 1050px)" srcset="imagens/imagem.png" type="image/png">
+	<img href="imagem.png" alt="imagem flexivel">
+</picture>
+
+
+Aula 3: Colocando áudio no seu site 
+
+Para colocar a tag audio basta colocar a tag como exemplo
+
+<audio src="audio" controls autoplay></audio>
+
+para colocar varios tipos de audio coloque a tag:
+
+<audio preload="metadata"autoplay controls loop(se quiser)>
+	<source src="arquivo" type="audio/mp3">
+	<source src="arquivo" type="audio/ogg">
+	<source src="arquivo" type="audio/wav">
+	<p>Infelimente seu Navegador não é compativel com o áudio</p>
+</audio>
+
+Aula 4: Formatos de vídeos (Instale o app HandBrake)
+
+Aula 5: Videos em hospedagem próoria
+
+Para colocar uma video coloque a tag:
+
+<video src="arquivo" width="500" controls></video>
+
+Coloque todos os tipos
+
+<video width="500" poster="arquivo" controls>
+	<sorece src="arquivo" type="video/mp4">
+	<sorece src="arquivo" type="video/mp4">
+	<sorece src="arquivo" type="video/webm>
+	<p>Seu arquivo não tem compatilidade com o video
+</video>
+
+Aula 6: Incorporação de videos externos
+
+Para colocar videos do youtue segua os passo a passo
+
+Vai no video, depos clique em compartilhar, Incorporar, pegue o códio e cole no editor de códigos
+
+Capítulo 12
+
+Aula 1: Estilos de CSS inline
+
+O primeiro método de colocar estilos no html é colocar dentro da própria, porém esse método é ruim, porque se você tiver mais de uma página você terá que colocar em todas as tags
+
+Para coloar fonte ultilize a tag <font-family: fonte>
+Para colocar o texto justificado coloque a tag <text-aline:justify>
+
+Aula 2: Estilos CSS internos
+
+O segundo método é ir na áre de cabeça, embaixo da tag title e colocar a tag <style>, em seguinda basta colocar as tag que você desaja aplicar estilo
+
+
+Aula 3: Estilos CSS externos
+
+O terceiro método é o melhor jeito para colocar os estilo. Basta criar um novo arquivo chamdado style.css. Para conectar as páginas nesse aquivo basta ir na área de cabeça e criar um link exemplo: <link rel="stylesheet" href="style.css">
+
+
+
+
