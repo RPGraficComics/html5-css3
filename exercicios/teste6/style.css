@@ -2,17 +2,18 @@
 
 
 :root {
-    --cor0: #CBCFD1;
+    --cor0: #FFF587;
     --cor1: #B0B6BA;
     --cor2: #6A736F;
-    --cor3: #292b29;
-    --cor4: rgb(29, 28, 28);
+    --cor3: #7D6B7D;
+    --cor4: #A3A1A8;
 }
 
 body {
-    background-color: var(--cor2);
+    background-color: var(--cor0);
     margin: auto;
     text-align: justify;
+    font-size: 1.04em;
 }
 
 * {
@@ -23,7 +24,7 @@ body {
 header {
     padding: 10px;
     text-align: center;
-    background-image: linear-gradient(to right, var(--cor3), var(--cor4));
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor3));
 }
 
 header h1 {
@@ -31,45 +32,54 @@ header h1 {
 }
 
 nav {
-    background-image: linear-gradient(to right, var(--cor3), var(--cor4));
+    background-color: var(--cor3);
     padding: 10px;
 }
 
 nav a {
     margin: 5px;
+    padding: 5px;
     border-radius: 2px;
     text-decoration: none;
     color: white;
 }
 
 nav a:hover {
-    background-color: var(--cor2);
+    background-color: var(--cor1);
 }
 
 main {
-        margin: auto;
-        padding: 20px;
-        padding-left: 25px;
-        background-color: white;
-        text-align: justify;
-        max-width: 1000px;
-        min-width: 300px;
+    margin: auto;
+    padding: 20px;
+    padding-left: 25px;
+    background-color: white;
+    text-align: justify;
+    max-width: 1000px;
+    min-width: 300px;
+    border-radius: 5px;
 }
 
 main img{
     max-width: 350px;
-    display: block;
     margin: auto;
+    display: block;
+}
+
+ul {
+    list-style-type: '\2714\00a0';
+    margin-left: 30px;
 }
     
 footer {
-    background-color: rgb(0, 0, 0);
+    background-color: #5c565c;
     color: white;
-    padding: 10px;
+    padding: 15px;
     text-align: center;
+    font-weight: bold;
 }
 
 footer a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
