@@ -7,7 +7,7 @@
 
 body {
     font-family: cursive;
-    font-size: 1.23em;
+    font-size: 2em;
 }
 
 header {
@@ -43,19 +43,17 @@ main {
 }
 
 .foto {
-    color: white;
     height: 100vh;
     padding: 10px;
-    padding-top: 10%;
+    padding-top: 50px;
     font-size: 1.23em;
     background-size: 100% 100%;
+    color: white;
 }
 
 #flor {
     background-image: url('imagens/background001.jpg');
 }
-
-
 
 #livro {
     background-image: url('imagens/background002.jpg');
