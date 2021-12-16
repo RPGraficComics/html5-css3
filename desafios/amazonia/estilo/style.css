@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header > h1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: #C4170C;
+    color: white;
+}
+
+main {
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 2em;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 1000px;
+    min-width: 400px;
+    background-color: white;
+}
+
+main > h1 {
+    padding-bottom: 20px;
+    font-size: 2.5em;    
+}
+
+main > article {
+    font-size: 2em;
+}
+
+main > article > p {
+    padding-bottom: 1.5em;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p#imagem01 {
+    background-image: url('../imagens/queimadas.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;    
+}
+
+p#imagem02 {
+    background-image: url('../imagens/florestas.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;    
+}
