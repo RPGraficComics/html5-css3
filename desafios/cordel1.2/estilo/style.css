@@ -35,11 +35,11 @@ a:hover {
 section {
     font-family: cursive;
     padding-left: 30px;
-    padding-top: 10px;
+    padding-top: 10vh;
     padding-bottom: 2em;
     line-height: 2em;
     font-size: 3.5;
-    background-position: right center;
+    background-attachment: fixed;
     background-size: 100vw;
 }
 
@@ -49,9 +49,11 @@ section > p {
 
 section.normal {
     background-color: white;
+    color: black;
 }
 
 section.imagem {
+    background-color: black;
     color: white;
 }
 
@@ -65,14 +67,13 @@ section.imagem > p{
 section#img01 {
     background-image: url('../imagens/background001.jpg');
     background-size: cover;
-    background-attachment: fixed;
-    
+    background-position: right center;
 }
 
 section#img02 {
     background-image: url('../imagens/background002.jpg');
     background-size: cover;
-    background-attachment: fixed;
+    background-position: right center;
 }
 
 footer {
