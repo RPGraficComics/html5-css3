@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+            color: #657b8f;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tr#cabeçalho {
+            background-color: #29A563;
+        }
+
+        tfoot#rodape {
+            background-color: #29A563;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgb( 228, 228, 228);
+        }
+
+        tr#grupocor {
+            background-color: #9BC2E6;
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+        <caption>Tabelas sobre Produtos</caption>
+
+        <thead>
+            <tr id="cabeçalho">
+                <th scope="col">IdProdutos</th>
+                <th scope="col">Produtos</th>
+                <th scope="col">Quantidade</th>
+                <th scope="col">Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Produto01</td>
+                <td>5</td>
+                <td>R$ 3,00</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Produto02</td>
+                <td>10</td>
+                <td>R$ 2,00</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Produto03</td>
+                <td>20</td>
+                <td>R$ 1,50</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Produto04</td>
+                <td>10</td>
+                <td>R$ 3,00</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Produto05</td>
+                <td>5</td>
+                <td>R$ 3,50</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Produto06</td>
+                <td>5</td>
+                <td>R$ 3,50</td>
+            </tr>
+        </tbody>
+        <tfoot id="rodape"> 
+                <th scope="row" colspan="3">Total</th>
+                <td>R$ 18,00</td>
+        </tfoot>
+    </table>
+<br>
+    <table>
+        <caption>Notas dos alunos do 2º ano do Ensino Fundamental</caption>
+        <thead>
+            <tr id="grupocor">
+                <th scope="col">Aluno</th>
+                <th scope="col">Matemática</th>
+                <th scope="col">Português</th>
+                <th scope="col">História</th>
+                <th scope="col">Geografia</th>
+                <th scope="col">Ciências</th>
+            </tr>
+            <tr>
+                <th scope="row">Alice</th>
+                <td>7,5</td>
+                <td>8,9</td>
+                <td>8</td>
+                <td>8,2</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <th scope="row">Pedro</th>
+                <td>8,5</td>
+                <td>8</td>
+                <td>8,5</td>
+                <td>9</td>
+                <td>9,5</td>
+            </tr>
+            <tr>
+                <th scope="row">Ricardo</th>
+                <td>7</td>
+                <td>7,9</td>
+                <td>8</td>
+                <td>8</td>
+                <td>9,5</td>
+            </tr>
+            <tr>
+                <th scope="row">Bianca</th>
+                <td>9</td>
+                <td>8,7</td>
+                <td>8,5</td>
+                <td>8,7</td>
+                <td>10</td>
+            </tr>
+        </thead>
+    </table>
+</body>
+</html>
